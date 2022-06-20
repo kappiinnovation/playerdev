@@ -311,6 +311,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   text-align: center;
   padding: 0 15px;
+  
 }
 #hero .hero-logo {
   margin-bottom: 30px;
@@ -321,7 +322,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   line-height: 56px;
   color: #fff;
-  padding: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 #hero h2 {
   color: #ffffff;
@@ -348,6 +350,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   color: #8f7102;
 }
+#logo_oldham{
+  max-height: 15rem;
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -355,11 +360,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
   }
   #hero h2 {
     line-height: 22px;
+  }
+  #logo_oldham{
+    max-height: 10rem;
+   
   }
 }
 
