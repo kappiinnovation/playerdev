@@ -444,7 +444,7 @@ section {
   color: #8f7102;
 }
 .services .icon-box p {
-  font-size: 15px;
+  font-size: 1.2em;
   color: #959595;
   margin-left: 60px;
 }
@@ -1505,4 +1505,10 @@ section {
   text-align: center;
   font-size: 13px;
   padding-top: 5px;
+}
+
+#titlebasket{
+  background: -webkit-linear-gradient(166deg, #f9f295 9.66%, #e0aa3e 31.51%, #faf398, #b88a44);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
