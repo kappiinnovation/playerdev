@@ -351,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #8f7102;
 }
 #logo_oldham{
-  max-height: 15rem;
+  max-height: 16rem;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -363,6 +363,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.5rem;
     line-height: 1.5rem;
   }
+  
   #hero h2 {
     line-height: 22px;
   }
