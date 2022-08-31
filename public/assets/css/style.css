@@ -1407,8 +1407,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
-  color: #fff;
+  background-color: #b60030;
   font-size: 14px;
   position: relative;
 }
@@ -1419,7 +1418,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.85);
+  
   z-index: 1;
 }
 #footer .footer-top {
@@ -1500,19 +1499,24 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #5ab652;
+  background: #ded33f;
   color: #fff;
   text-decoration: none;
 }
 #footer .footer-bottom {
-  border-top: 1px solid #222222;
+  border-top: 1px solid #ffffff;
   z-index: 2;
   position: relative;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 #footer .copyright {
+  color: #ffffff;
   text-align: center;
+}
+#footer .links {
+  color: #ffffff;
+  
 }
 #footer .credits {
   text-align: center;
